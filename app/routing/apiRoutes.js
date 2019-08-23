@@ -5,6 +5,7 @@ module.exports = function (app) {
         res.json(friends);
     });
     app.post("/api/friends", function (req, res) {
-        res.json(friends)
+        // Log array of answers as an object here and compare to
+        // find best match
     });
 }
