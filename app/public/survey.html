@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,156 @@
     <title>Survey</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
-<h1>Survey Questions</h1>
-<hr class="my-4">
-<h2>About You</h2>
-<br>
-<strong>Name (required)</strong>
-<input type="text" class="form-control" required="" id="name">
-<br>
-<strong>Link to Photo Image (required)</strong>
-<input type="text" class="form-control" required="" id="photo">
-<hr class="my-4">
+        <h1>Survey Questions</h1>
+        <hr class="my-4">
+        <h2>About You</h2>
+        <br>
+        <strong>Name (required)</strong>
+        <input type="text" class="form-control" required="" id="name">
+        <br>
+        <strong>Link to Photo Image (required)</strong>
+        <input type="text" class="form-control" required="" id="photo">
+        <hr class="my-4">
 
-<hr class="my-4">
-<div class="footer">
-    <a href="/api/friends">API Friends List</a> |
-    <a href="https://github.com/seanesqueda/Friend_Finder">GitHub Repo</a>
-</div>
+        <h3><strong>Question 1</strong></h3>
+        <h4>You like pizza.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q1">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        
+        <h3><strong>Question 2</strong></h3>
+        <h4>You like ice cream.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q2">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>You like exploring nature.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q3">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>You like staying up late at night.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q4">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>You like to play an instrument.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q5">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>You like sports.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q6">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>You like video games.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q7">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>You like a good musical.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q8">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>You like to party.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q9">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h3><strong>Question 10</strong></h3>
+        <h4>You like long walks on the beach.</h4>
+        <div class="form-group">
+            <select class="form-control" id="q10">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+                aria-hidden="true"></i>
+            Submit
+        </button>
+
+        <hr class="my-4">
+
+        <div class="footer">
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://github.com/seanesqueda/Friend_Finder">GitHub Repo</a>
+        </div>
     </div>
 </body>
+
 </html>
